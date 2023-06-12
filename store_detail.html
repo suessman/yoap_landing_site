@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>요앞</title>
+  <meta name="description" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- favicon.ico in the root directory -->
+<link rel="apple-touch-icon" href="favicon.ico">
+
+<meta name="theme-color" content="#ff1400">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Owl Carousel -->
+<link rel="stylesheet" href="/css/owl.carousel.min.css" />
+<script src="/js/owl.carousel.min.js"></script>
+
+<link href="./css/styles.css?e8177695b3464213a58a" rel="stylesheet"></head>
+
+<body>
+
+  <!--[if IE]>
+<div class="p-3 bg-light">
+  <div class="container">
+    <p class="mb-0 browserupgrade">
+      You are using an <strong>outdated</strong> browser.
+      Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.
+    </p>
+  </div>
+</div>
+<![endif]-->
+
+
+  <div class="d-flex flex-column h-100">
+
+    <header class="header">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+    <div class="container">
+      <a href="/index.html" class="navbar-brand">
+        <span>우리동네</span>
+        <picture>
+          <source media="(min-width:650px)" srcset="images/logo@3x.png">
+          <source media="(min-width:465px)" srcset="images/logo@2x.png">
+          <img src="images/logo.png" alt="YOAP Logo">
+        </picture>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="menu">
+        <!-- <div class="search text-center"> -->
+        <div class="form-row w-90 col-md-15 col-lg-9 mb-md-3 mb-lg-0">
+          <div class="form-group col-5">
+            <select class="form-control">
+              <option value="">주소 설정</option>
+              <option value="1">주소</option>
+            </select>
+          </div>
+          <div class="form-group col-11 inner-icon">
+            <input type="text" class="form-control" placeholder="검색">
+            <button type="button" class="icon icon-search">
+              <span class="sr-only">검색</span>
+            </button>
+          </div>
+        </div>
+        <!-- </div> -->
+        <ul class="navbar-nav ml-2 flex-row">
+          <li class="nav-item mx-2">
+            <a href="#;" class="btn btn-outline-primary">
+              <i class="icon icon-app icon-appstore"></i>
+              <span>App Store</span>
+            </a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="#;" class="btn btn-outline-primary">
+              <i class="icon icon-app icon-googleplay"></i>
+              <span>Google Play</span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+    <main class="">
+
+      <div class="container mt-4">
+        <!-- 상점이미지 슬라이드 -->
+        <div class="owl-carousel owl-theme">
+          <div class="item" style="background-image: url('http://mmmg.net/wp-content/uploads/2020/07/IMG_6607-1024x683.jpg')">
+          </div>
+          <div class="item" style="background-image: url('http://mmmg.net/wp-content/uploads/2020/07/IMG_6607-1024x683.jpg')">
+          </div>
+          <div class="item" style="background-image: url('http://mmmg.net/wp-content/uploads/2020/07/IMG_6607-1024x683.jpg')">
+          </div>
+          <div class="item" style="background-image: url('http://mmmg.net/wp-content/uploads/2020/07/IMG_6607-1024x683.jpg')">
+          </div>
+          <div class="item" style="background-image: url('http://mmmg.net/wp-content/uploads/2020/07/IMG_6607-1024x683.jpg')">
+          </div>
+          <div class="item" style="background-image: url('http://mmmg.net/wp-content/uploads/2020/07/IMG_6607-1024x683.jpg')">
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-4 store">
+
+        <section>
+          <h2>총각네 야채가게 서초동</h2>
+          <div class="row head-info mt-3">
+            <div class="col-9">서초구 서초동 서초대로 111</div>
+            <div class="col-7 text-right">
+              <span>관심 99</span>
+              <span>리뷰 999개</span>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <section>
+          <b>정보</b>
+          <dl class="dlist-one row">
+            <dt class="col-4 col-md-3">운영시간</dt>
+            <dd class="col-12 col-md-13">매일 11:00 ~ 21:00</dd>
+            <dt class="col-4 col-md-3">편의시설</dt>
+            <dd class="col-12 col-md-13">주차장 있음, 예약 가능, 주문 가능, 화장실 있음</dd>
+          </dl>
+        </section>
+        <hr>
+        <section>
+          <b>소개</b>
+          <p>안녕하세요. 총각네 야채가게 입니다. <br>
+            최선을 다하겠습니다. 감사합니다 :)</p>
+        </section>
+        <hr>
+        <section>
+          <b>지도</b>
+          <div class="map-wrapper">
+            <!-- 지도 api -->
+
+            <!-- 지도 핀 썸네일 : 등록 사진이 있을 경우 -->
+            <div class="pin pin-store" style="left:40px; top: 140px;">
+              <img src="/images/user_photo.png" class="pin" alt="상점이미지">
+            </div>
+            <!-- 등록 사진이 없을 경우 -->
+            <div class="pin pin-store" style="left:180px; top: 240px;"></div>
+          </div>
+        </section>
+        <hr>
+        <section>
+          <b>리뷰 30</b>
+          <div class="item-comment">
+            <article class="item">
+              <!-- user thumb -->
+              <i class="userthumb" style="background-image: url('/images/user_photo.png');"></i>
+              <div class="item-body">
+                <div class="ml-2">
+                  <h2>주민1 <span class="area">서초동</span></h2>
+                  <div class="comment">
+                    <span>위치가 어딘가요? 위치가 어딘가요?위치가 어딘가요?위치가 어딘가요?위치가 어딘가요?위치가 어딘가요?위치가 어딘가요?위치가 어딘가요?위치가 어딘가요?위치가 어딘가요?</span>
+                    <p class="comment-date">2020-00-00 | 00:00</p>
+                  </div>
+                </div>
+                <!-- <div class="comment-like">
+                  <button class="icon icon-sm icon-likesm">
+                    <span class="sr-only">좋아요</span>
+                  </button>
+                  <span class="like-num">999</span>
+                </div> -->
+              </div>
+            </article>
+            <article class="item reply">
+              <!-- user thumb -->
+              <i class="userthumb" style="background-image: url('/images/user_photo.png');"></i>
+              <div class="item-body">
+                <div class="ml-2">
+                  <h2 class="writer">주민1 <span class="area">서초동</span></h2>
+                  <div class="comment">
+                    <span>위치가 어딘가요? 위치가 어딘가요?위치가 어딘가요?위치가 어딘가요?위치가 어딘가요?위치가 어딘가요?위치가 어딘가요?위치가 어딘가요?위치가 어딘가요?위치가 어딘가요?</span>
+                    <p class="comment-date">2020-00-00 | 00:00</p>
+                  </div>
+                </div>
+                <!-- <div class="comment-like">
+                  <button class="icon icon-sm icon-likesm">
+                    <span class="sr-only">좋아요</span>
+                  </button>
+                  <span class="like-num">999</span>
+                </div> -->
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+
+
+    </main>
+
+    <footer class="footer mt-5">
+  <div class="container px-4 px-md-0 py-3 footer-wrap">
+    <div class="row my-4">
+      <div class="col-md-4">
+        <picture>
+          <source media="(min-width:650px)" srcset="images/yoap-white@3x.png">
+          <source media="(min-width:465px)" srcset="images/yoap-white@2x.png">
+          <img src="images/yoap-white.png" class="footer-logo" alt="요앞로고">
+        </picture>
+      </div>
+      <div class="col-md-4">
+        <a href="#;">자주 묻는 질문</a>
+      </div>
+      <div class="col-md-4">
+        <a href="#;">회사소개</a>
+        <a href="#;">광고의뢰</a>
+        <a href="#;">요앞 서비스</a>
+      </div>
+      <div class="col-md-4">
+        <a href="#;">이용약관</a>
+        <a href="#;">개인정보 처리방침</a>
+        <a href="#;">위치기반 서비스 이용약관</a>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-6">
+        <small>2021 &copy; YOAP</small>
+      </div>
+      <ul class="col-10 text-right sns-group">
+        <li>
+          <a href="#;" class="icon icon-youtube">
+            <span class="sr-only">유튜브</span>
+          </a>
+        </li>
+        <li>
+          <a href="#;" class="icon icon-insta">
+            <span class="sr-only">인스타그램</span>
+          </a>
+        </li>
+        <li>
+          <a href="#;" class="icon icon-facebook">
+            <span class="sr-only">페이스북</span>
+          </a>
+        </li>
+        <li>
+          <a href="#;" class="icon icon-naver">
+            <span class="sr-only">네이버블로그</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  <script>
+    $(".owl-carousel").owlCarousel({
+      items: 1,
+      dots: false,
+      nav: true,
+      navText: ["<i class='prev'>", "<i class='next'>"]
+    });
+  </script>
+<script src="./js/index.bundle.js?e8177695b3464213a58a"></script></body>
+
+</html>
